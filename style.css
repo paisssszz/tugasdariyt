@@ -143,3 +143,92 @@ body{
     margin-right: 10px;
     color: white;
 }
+
+.text-skill{
+    margin-left: 12%;
+    margin-top: 50px;
+    line-height: 0;
+    width: 450px;
+}
+
+.text-skill p:first-child{
+    font-size: 24px;
+    line-height: 0px;
+    font-weight: 700;
+}
+
+.text-skill p:nth-child(2){
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text-skill p:nth-child(3){
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 100;
+}
+
+.card-skill{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.skill-1,
+.skill-2,
+.skill-3{
+    width: 250px;
+    height: 320px;
+    background-color: #2f3640;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 2px 2px 12px rgb( 0, 0, 0, 0.2);
+}
+
+.skill-1 div,
+.skill-2 div,
+.skill-3 div{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2f3640;
+    font-weight: bold;
+}
+
+.skill-1 p:first-of-type,
+.skill-2 p:first-of-type,
+.skill-3 p:first-of-type{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.skill-1 p:nth-last-child(2),
+.skill-2 p:nth-last-child(2),
+.skill-3 p:nth-last-child(2){
+    font-size: 14px;
+    color: white;
+}
+
+.skill-1 button,
+.skill-2 button,
+.skill-3 button{
+    width: 90px;
+    margin-top: 12px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    font-size: 12px;
+}
+
